@@ -1,3 +1,5 @@
 # 1. write a program to find most repected characters in a string
 
+# 2. Write a program to find the square root of number using lambda with any code crash
+
 

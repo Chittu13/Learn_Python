@@ -10,3 +10,15 @@ for i in string:
 
 orginal = sorted(Empty.items(), key=lambda Empty: Empty[1], reverse=True)
 print(f' Most Repected Character: {orginal[0][0]} ---> {orginal[0][1]}')
+
+
+# 2. Write a program to find the square root of number using lambda with any code crash
+
+
+try:
+    user = input("Enter the numbers separated by (comma): ")
+    user = list(int(i) for i in user.split(','))
+    a = list(map(lambda f: f**2, user))
+    print(f"squre root of {user} is {a}")
+except ValueError:
+    print("only numerical, No space:( between numbers use only only comma")
