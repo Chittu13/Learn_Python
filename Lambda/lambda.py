@@ -1,11 +1,20 @@
-# Basic of lambda function 
+# Basic of lambda function
 
-x=input("Enter the number you want to squre the number: ")
-x=list(int(i) for i in x.split(','))
-a=list(map(lambda f:f**2, x ))
-print(a)
+add=lambda a,b:a+b
+sub=lambda a,b:a-b
+mul=lambda a,b:a*b
+div=lambda a,b:a/b
 
-
-x= lambda a,b: a+b
-print(x(2,3))
-
+first=int(input("Enter the first number: "))
+second=int(input("Enter the second number: "))
+per=input('Enter the operation you want to perform like: "+  -  *  /": ')
+if per=="+":
+    print(add(first,second))
+elif per=="-":
+    print(sub(first,second))
+elif per=="*":
+    print(mul(first,second))
+elif per=="/":
+    print(div(first,second))
+else:
+    print("Please enter the right operation :( ")
