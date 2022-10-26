@@ -22,3 +22,20 @@ try:
     print(f"squre root of {user} is {a}")
 except ValueError:
     print("only numerical, No space:( between numbers use only only comma")
+
+
+
+# Write a program, multiple of 3 print "Fizz", multiple of 5 print "Buzz" and both 3&5 multiple prints "FizzBuzz" 
+
+def fizz(x):
+    if x%3==0 and x%5==0:
+        return "FizzBuzz"
+    elif x%3==0:
+        return "Fizz"
+    elif x%5==0:
+        return "Buzz"
+    else:
+        return x
+y=int(input("Enter the number:) "))
+print(fizz(y))
+
