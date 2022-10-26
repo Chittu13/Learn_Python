@@ -39,3 +39,19 @@ def fizz(x):
 y=int(input("Enter the number:) "))
 print(fizz(y))
 
+
+
+# write number that print even number from a range and finally print how many even numbers you got
+
+
+x=int(input("Enter the first range of number: "))
+y=int(input("Enter the second range of number: "))
+count=0
+store=[]
+for i in range(x,y+1):
+    if i%2==0:
+        store.append(i)
+        count+=1
+print(f"Number of even numbers: {store}")
+print(f"The total number of even numbers is {count}")
+
