@@ -1,7 +1,8 @@
 # 1. write a program to find most repected characters in a string
 
 # 2. Write a program to find the square root of number using lambda with any code crash
- # 3. Write a program, multiple of 3 print "Fizz", multiple of 5 print "Buzz" and both 3&5 multiple prints "FizzBuzz" 
+
+# 3. Write a program, multiple of 3 print "Fizz", multiple of 5 print "Buzz" and both 3&5 multiple prints "FizzBuzz" 
 
 
 
