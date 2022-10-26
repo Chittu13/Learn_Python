@@ -4,5 +4,7 @@
 
 # 3. Write a program, multiple of 3 print "Fizz", multiple of 5 print "Buzz" and both 3&5 multiple prints "FizzBuzz" 
 
+# 4. Write number that print even number from a range and finally print how many even numbers you got
+
 
 
