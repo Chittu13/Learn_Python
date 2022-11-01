@@ -27,3 +27,24 @@ c=p*x
 print(f"{c.x},{c.y}")
 d=p/x
 print(f"{d.x},{d.y}")
+
+
+
+
+
+
+
+
+
+
+
+# Program for adding of two numbers using class 
+
+class Point:
+    def __init__(self,x,y):      #This def block is constructor def 
+        self.x=x                 #This are instance attributes or This are attributes belong to Point Object 
+        self.y=y
+    def draw(self):
+        return(f'{self.x}+{self.y}={self.x+self.y} ')
+p=Point(2,4)
+print(p.draw())
