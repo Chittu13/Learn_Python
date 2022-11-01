@@ -41,7 +41,7 @@ print(fizz(y))
 
 
 
-# write number that print even number from a range and finally print how many even numbers you got
+# write a program that print even number from a range and finally print how many even numbers you got
 
 
 x=int(input("Enter the first range of number: "))
