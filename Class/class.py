@@ -32,12 +32,6 @@ print(f"{d.x},{d.y}")
 
 
 
-
-
-
-
-
-
 # Program for adding of two numbers using class 
 
 class Point:
