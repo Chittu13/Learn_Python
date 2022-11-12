@@ -1,4 +1,5 @@
 # File opening 
+# Here i have created a txt file named (name.txt) & some txt is present 
 
 - "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 
@@ -8,16 +9,22 @@
 
 - "x" - Create - Creates the specified file, returns an error if the file exists
 
-# Here i have created a txt file named (name.txt) & some txt is present 
+## Basic file reading code
 
 ```python
 txt=open("name.txt",'r')         # Opening the file
 print(txt.read())                # Reading the contant of the file
 txt.close()                      # And closing the file
-
-txt=open("name.txt",'r') 
-print(txt.readline())             # It will read the first line contant
 ```
+
+## To read first line contant
+
+```python
+txt=open("name.txt",'r') 
+print(txt.readline())           
+txt.close()
+```
+## Using for loop to print the contant line by line
 
 ```python
 txt=open("name.txt",'r')
@@ -41,7 +48,7 @@ for x in f:
 f.close()
 ```
 
-## Or you can this method you no need to close the file 
+## Or you can this method, no need to close the file 
 
 ```python
 with open("name.txt",'r') as f:
