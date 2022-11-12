@@ -17,6 +17,15 @@ print(txt.read())                # Reading the contant of the file
 txt.close()                      # And closing the file
 ```
 
+# Use this method, no need to close the file every time.
+
+```python
+with open("name.txt",'r') as f:
+    for x in f:
+        print(x)
+```
+
+
 ## To read first line contant
 
 ```python
@@ -24,6 +33,8 @@ txt=open("name.txt",'r')
 print(txt.readline())           
 txt.close()
 ```
+
+
 ## Using for loop to print the contant line by line
 
 ```python
@@ -33,9 +44,9 @@ for x in txt:
 ```
 
 
-
-### "a" - Append - will append to the end of the file
-### "w" - Write - will overwrite any existing content
+# Program to write in a file using Append 
+ -  "a" - Append - will append to the end of the file
+ -  "w" - Write - will overwrite any existing content
 
 ```python
 f=open("name.txt",'a')
@@ -48,19 +59,13 @@ for x in f:
 f.close()
 ```
 
-## Or you can this method, no need to close the file 
-
-```python
-with open("name.txt",'r') as f:
-    for x in f:
-        print(x)
-```
 
 
+# Program to creat a file and write 
 
-### "x" - Create - will create a file, returns an error if the file exist
-### "a" - Append - will create a file if the specified file does not exist
-### "w" - Write - will create a file if the specified file does not exist
+- "x" - Create - will create a file, returns an error if the file exist
+- "a" - Append - will append to the end of the file
+
 
 ```python
 f=open("create.txt",'x')
