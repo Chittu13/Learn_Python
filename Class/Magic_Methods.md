@@ -30,6 +30,14 @@ print(f"{c.x},{c.y}")
 
 # Comparison magic methods in class
 
+- eq    - equal to (==)
+- ne    - not equal to (!=)
+- lt    - less then (<)
+- gt    - grater then (>)
+- le    - less then equal to (>=)
+- ge    - grater then equal to (<=)
+
+
 
 ```python
 class Point:
@@ -37,12 +45,12 @@ class Point:
         self.x=x
         self.y=y
         
-    def __eq__(self,other):                                     # eq   equal to (==)
-        return self.x==other.x and self.y==other.y              # ne   not equal to (!=)
-                                                                # lt   less then (<)
-    def __gt__(self,other):                                     # gt   grater then (>)
-        return self.x>other.x and self.y>other.y                # le   less then equal to (>=)
-                                                                # ge   grater then equal to (<=)
+    def __eq__(self,other):                                     
+        return self.x==other.x and self.y==other.y              
+                                                                
+    def __gt__(self,other):                                    
+        return self.x>other.x and self.y>other.y                
+                                                                
     
     def __le__(self,other):
         return self.x<=other.x and self.y<=other.y
