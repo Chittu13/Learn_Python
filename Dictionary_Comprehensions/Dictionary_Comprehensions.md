@@ -26,7 +26,7 @@ for key in y:
     print(key,y[key])
 ```
 
-## or
+## Is same as
 
 ```python
 for key in y.items():
