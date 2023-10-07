@@ -6,7 +6,7 @@
 string = input("Enter the string: ")  
 Empty = {}                            
 for i in string:
-    if i in Empty:                    is there are not
+    if i in Empty:                    
         Empty[i] += 1
     else:
         Empty[i] = 1
